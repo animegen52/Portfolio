@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animegen Portfolio</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0f172a;
+  color:white;
+}
+
+header{
+  background:#020617;
+  padding:20px;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+}
+
+section{
+  padding:60px 20px;
+  max-width:900px;
+  margin:auto;
+}
+
+.hero{
+  text-align:center;
+  padding:100px 20px;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+.btn{
+  display:inline-block;
+  background:#38bdf8;
+  color:black;
+  padding:12px 22px;
+  margin-top:20px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#020617;
+  padding:20px;
+  border-radius:12px;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>Hammad</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Hi, I'm Animegen 👋</h1>
+  <p>Web Developer | WordPress | React Learner</p>
+  <a class="btn" href="#projects">See My Work</a>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+  I build websites using HTML, CSS, JavaScript, WordPress and Elementor.
+  Currently learning React and improving my frontend skills.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>Transport Website</h3>
+      <p>WordPress transportation booking site.</p>
+    </div>
+
+    <div class="card">
+      <h3>React Practice App</h3>
+      <p>Learning components and state management.</p>
+    </div>
+
+    <div class="card">
+      <h3>HTML Learning Pages</h3>
+      <p>Practice layouts and responsive design.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: animgen52@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Animegen Portfolio</p>
+</footer>
+
+</body>
+</html>
